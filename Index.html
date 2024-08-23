@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shotr</title>
+    <link rel="shortcut icon" href="Image/link.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="body">
+        <div class="logo"><i class="fa-solid fa-link"></i> Shotr</div>
+        <main>
+            <div class="chain-img">
+                <img src="Image/chain.png" alt="">
+            </div>
+            <div class="container">
+                <h1>Craft & <span>shorten</span> your <br> <span>link</span> Professionally.</h1>
+                <p>Enter your long URL you want to shorten below.</p>
+                <form id="urlForm">
+                    <input type="text" id="urlInput" placeholder="Enter link here" required>
+                    <button type="submit"><i class="fa-solid fa-scissors"></i></button>
+                </form>
+                <div id="result" class="hidden">
+                    <p>Shortened URL:</p>
+                    <a id="shortenedUrl" href="#" target="_blank"></a>
+                </div>
+            </div>
+            <div class="chain-img2">
+                <img src="Image/chain-blur.png" alt="">
+            </div>
+        </main>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
